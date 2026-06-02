@@ -69,7 +69,7 @@ function App() {
             <About />
           </Layout>
         } />
-        <Route path="/support-ladder/steps" element={<SupportLadderSteps />} />
+        <Route path="/support-ladder-steps" element={<SupportLadderSteps />} />
       </Routes>
     </Router>
   );
