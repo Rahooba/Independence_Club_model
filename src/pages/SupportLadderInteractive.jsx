@@ -5,7 +5,7 @@ import HelpTokens from '../components/Interactive/HelpTokens.jsx';
 
 // ---- QR Code generator (no external lib needed) ----
 // We'll use the free QR API: api.qrserver.com
-const QR_PAGE_PATH = '/support-ladder'; // the route for SupportLadderSteps
+const QR_PAGE_PATH = '/support-ladder/steps'; // the route for SupportLadderSteps
 
 const SupportLadderInteractive = () => {
   const [students, setStudents] = useState([
