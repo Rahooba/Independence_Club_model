@@ -330,7 +330,7 @@ const About = () => {
           
           <div style={{ position: 'relative', zIndex: 2 }}>
             <motion.div
-              animate={{ rotate: [0, 10, -10, 0] }}
+             animate={{ rotate: [0, 3, -3, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
               style={{ fontSize: '3rem', marginBottom: '16px' }}
             >
